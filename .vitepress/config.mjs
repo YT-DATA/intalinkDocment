@@ -90,7 +90,7 @@ export default defineConfig({
                     link: '/en/index.md'
                 },
                 {
-                    text: '快速部署',
+                    text: 'Rapid deployment',
                     collapsed: false,
                     items: [
                         { text: 'Win Quick Deployment Guide', link: '/en/Rapid-Deployment/Win-Floolproof.md' },
@@ -99,7 +99,7 @@ export default defineConfig({
                     ]
                 },
                 {
-                    text: '使用说明',
+                    text: 'instructions',
                     collapsed: false,
                     items: [
                         { text: 'Preface', link: '/en/Use-Instructions/Preface.md' },
