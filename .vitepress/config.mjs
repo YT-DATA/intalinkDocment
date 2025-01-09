@@ -74,6 +74,24 @@ export default defineConfig({
                     ]
                 },
                 {
+                    text: '数据治理开发规范',
+                    collapsed: false,
+                    items: [
+                        {
+                            text: '前端开发规范',
+                            link: '/zh/Data-Governance/web.md',
+                            items: [
+                                { text: '命名规范', link: '/zh/Data-Governance/NamingConvention.md' },
+                                { text: '结构化规范', link: '/zh/Data-Governance/Structured.md' },
+                                { text: '注释规范', link: '/zh/Data-Governance/Annotation.md' },
+                                { text: '编码规范', link: '/zh/Data-Governance/Encoding.md' },
+                                { text: 'CSS 规范', link: '/zh/Data-Governance/CSS.md' },
+                            ]
+                        },
+                        { text: '后端开发规范', link: '/zh/Use-Instructions/Table-Structrue.md' },
+                    ]
+                },
+                {
                     text: 'API',
                     collapsed: false,
                     items: [
